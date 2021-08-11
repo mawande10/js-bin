@@ -1,0 +1,10 @@
+var sayHiBtn = document.querySelector(".sayHi");
+sayHiBtn.addEventListener("click", function(){
+    alert("Hi!");
+});
+
+var greetDiv = document.querySelector('.greet');
+
+sayHiBtn.addEventListener("click", function(){
+    greetDiv.classList.toggle("warning");
+});
